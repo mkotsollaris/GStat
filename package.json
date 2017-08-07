@@ -1,0 +1,27 @@
+{
+  "name": "gstat",
+  "version": "0.0.1",
+  "description": "Example",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkotsollaris/GStat.git"
+  },
+  "author": "Menelaos Kotsollaris",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mkotsollaris/GStat/issues"
+  },
+  "homepage": "https://github.com/mkotsollaris/GStat#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "init"
+  },
+  "keywords": [
+    "stat"
+  ]
+}
