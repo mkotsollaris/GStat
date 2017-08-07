@@ -1,27 +1,16 @@
 {
-  "name": "gstat",
-  "version": "0.0.1",
-  "description": "Example",
-  "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mkotsollaris/GStat.git"
-  },
-  "author": "Menelaos Kotsollaris",
-  "license": "MIT",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
   },
-  "bugs": {
-    "url": "https://github.com/mkotsollaris/GStat/issues"
-  },
-  "homepage": "https://github.com/mkotsollaris/GStat#readme",
-  "devDependencies": {},
   "scripts": {
-    "test": "init"
-  },
-  "keywords": [
-    "stat"
-  ]
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
